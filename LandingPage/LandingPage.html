@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - Giới thiệu sản phẩm</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: yellow;
+        }
+        header {
+            background-color: #0fee0f;
+            color: rgb(248, 244, 244);
+            padding: 50px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-family: 'Arial', sans-serif;
+            font-size: 48px;
+            font-weight: bold;
+        }
+        header p {
+            font-family: 'Verdana', sans-serif;
+            font-size: 24px;
+            font-weight: normal;
+
+         
+        }
+        section {
+            padding: 20px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            border: 2px solid #4CAF50;
+            border-radius: 50px; /* Khung tròn */
+            background-color: #f5f3f3;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bóng đổ nhẹ */
+        }
+        .features ul, .features ol {
+            padding-left: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #080303;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        .contact-form {
+            margin-top: 20px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #090505;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #25a029;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>8BITDO ULTIMATE 2C</h1>
+    <p>TAY CẦM CHƠI GAME KHÔNG DÂY CHUYÊN DỤNG, MANG LẠI CHO BẠN NHỮNG TRẢI NGHIỆM CHƠI GAME TUYỆT VỜI </p>
+</header>
+
+
+<section>
+    <h2>Mô tả sản phẩm</h2>
+    <figure>
+        <img src="https://scontent.fhan5-10.fna.fbcdn.net/v/t39.30808-6/455339495_952858420218654_7172591742509043082_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeHAWownhs4UKpAcg1KQofzZOIWRsgzh3Ew4hZGyDOHcTHe8rgSo-0s0TkH0wUFQ9UWw6I_0tX_NXvABRTp9Q_7N&_nc_ohc=Z0PfbkYaG_IQ7kNvgGRwBro&_nc_ht=scontent.fhan5-10.fna&_nc_gid=A8bP_rB-BpodC00e65UrSnK&oh=00_AYBqOaiM1UbrqufDuXVk7xb0fWOtIOpEM1rd1S6mR6BEWQ&oe=66F6FBE8" alt="Sản phẩm" width="100%" >
+        <figcaption>8BITDO ULTIMATE 2C </figcaption>
+    </figure>
+</section>
+<section>
+    <h2>Thông tin sản phẩm </h2>
+    <ul>
+        <li> Layout XBOX : nút thứ tự XY AB. </li>
+        <li> 1000hz Polling Rate( cho kết nôí 2,4G và có dây).</li>
+        <li> Hall Effect Analog và Trigger. </li>
+        <li> Kết nối: Cáp USB(Windows), Wireless 2,4G(Windows), Bluetooth(Android).</li>
+        <li> Pin Li-on 480mAh, sạc đầy trong 2h. </li>
+        <li> Thời gian sử dụng: 19h(kết nối Wireless 2,4G), 32h kết nối bluetooth. </li>
+        <li> Bộ sản phẩm gồm: Tay cầm 8Bitdo Ultimate 2c Wireless Controller, 2,4G Adapter, cáp USB, Sách hướng dẫn.</li>
+    </ul>
+</section>
+<!-- Tính năng nổi bật -->
+<section class="features">
+    <h2>Tính năng nổi bật</h2>
+    <ul>
+        <li>Nút bấm L1/R1 và D-pad được cải tiến. Có nút bấm phụ R4/L4
+            1000Hz Polling Rate (cho kết nối 2.4G và có dây)</li>
+        <li>Có nút chuyển đổi 2,4G - Bluetooth</li>
+        <li>Tùy chỉnh gán nút không cần phần mềm </li>
+        <li>Có rung, hỗ trợ Turbo </li>
+        <li>Dễ dàng tùy chỉnh và mở rộng</li>
+    </ul>
+</section>
+
+<!-- Bảng giá -->
+<section>
+    <h2>Bảng giá</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Giá</th>
+                <th>Phương thức vận chuyển </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+
+                <td>800,000 VND </td>
+                <td>Nhanh </td>
+            </tr>
+            <tr>
+
+                <td>750000 VND</td>
+                <td>Chậm </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- Form liên hệ -->
+<section>
+    <h2>Liên hệ với chúng tôi</h2>
+    <form class="contact-form">
+        <label for="name">Tên của bạn:</label>
+        <input type="text" id="name" name="name" placeholder="Nhập tên của bạn" required>
+
+        <label for="email">Email của bạn:</label>
+        <input type="email" id="email" name="email" placeholder="Nhập email của bạn" required>
+
+        <label for="message">Tin nhắn:</label>
+        <textarea id="message" name="message" placeholder="Nhập tin nhắn của bạn" rows="5" required></textarea>
+
+        <button type="submit">Gửi</button>
+    </form>
+</section>
+
+</body>
+</html>

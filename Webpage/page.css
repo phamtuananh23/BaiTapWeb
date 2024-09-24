@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f3f2;
+    color: #333;
+}
+
+/* Định dạng container chính của CV */
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    
+}
+
+/* Định dạng cho phần tiêu đề chính */
+h1 {
+    font-size: 2.9em;
+    color: #42ab45;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Định dạng cho phần thông tin liên hệ */
+p {
+    font-size: 1em;
+    margin: 5px 0;
+    text-align: center;
+}
+
+/* Định dạng cho tiêu đề các phần khác */
+h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-top: 30px;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Định dạng cho mục tiêu nghề nghiệp */
+h2 + p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    align-items: center;
+}
+
+/* Định dạng danh sách có thứ tự */
+ol {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+/* Định dạng cho các danh sách bên trong các phần */
+ol li {
+    margin-bottom: 20px;
+    
+}
+
+/* Định dạng cho phần kinh nghiệm làm việc */
+dl dt {
+    font-weight: bold;
+    color: #4CAF50;
+    margin-top: 10px;
+}
+
+dl dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+/* Định dạng cho các danh sách kỹ năng */
+ol li {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Định dạng khoảng cách giữa các phần */
+h2 {
+    margin-top: 30px;
+}

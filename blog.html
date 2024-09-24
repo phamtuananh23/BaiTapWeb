@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: pink;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .post {
+            border: 1px solid #ab1a1a;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: white;
+        }
+        h2 {
+            color: #333;
+        }
+        small {
+            color: #888;
+        }
+        .comments {
+            margin-top: 20px;
+        }
+        .comment {
+            margin-bottom: 15px;
+        }
+        blockquote {
+            margin: 0;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-left: 5px solid #ccc;
+        }
+        .comment-form {
+            margin-top: 20px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Trang Blog</h1>
+
+    <!-- Bài viết 1 -->
+    <div class="post">
+        <h2>Ăn gì hôm nay</h2>
+        <small>Ngày đăng: 23/09/2024 | Tác giả: Phạm Tuấn Anh </small>
+        <p>Chán quá chả biết ăn gì, cho tí gợi ý đi.</p>
+
+        <div class="comments">
+            <h3>Bình luận:</h3>
+
+            <!-- Bình luận 1 -->
+            <div class="comment">
+                <strong>Nguyễn Trí Như:</strong>
+                <blockquote>
+                    Nay ăn xôi là hợp lí nhất.
+                </blockquote>
+            </div>
+
+            <!-- Bình luận 2 -->
+            <div class="comment">
+                <strong>Hoàng Sơn:</strong>
+                <blockquote>
+                    Mì không phải ý tưởng tồi.
+                </blockquote>
+            </div>
+        </div>
+
+        <!-- Form thêm bình luận mới -->
+        <div class="comment-form">
+            <h4>Thêm bình luận:</h4>
+            <form action="#" method="POST">
+                <label for="name">Tên của bạn:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="comment">Nội dung bình luận:</label>
+                <textarea id="comment" name="comment" rows="4" required></textarea>
+
+                <input type="submit" value="Gửi bình luận">
+            </form>
+        </div>
+    </div>
+
+    <!-- Bài viết 2 -->
+    <div class="post">
+        <h2>Kỉ niệm ngày đầu tiên đi học</h2>
+        <small>Ngày đăng: 20/09/2024 | Tác giả: Phạm Tuấn Anh </small>
+        <p>Ngày đầu tiên đi học của bạn như thế nào</p>
+
+        <div class="comments">
+            <h3>Bình luận:</h3>
+
+            <!-- Bình luận 1 -->
+            <div class="comment">
+                <strong>Phạm Thị Minh Sang :</strong>
+                <blockquote>
+                    không ý kiến.
+                </blockquote>
+            </div>
+        </div>
+
+        <!-- Form thêm bình luận mới -->
+        <div class="comment-form">
+            <h4>Thêm bình luận:</h4>
+            <form action="#" method="POST">
+                <label for="name2">Tên của bạn:</label>
+                <input type="text" id="name2" name="name2" required>
+
+                <label for="comment2">Nội dung bình luận:</label>
+                <textarea id="comment2" name="comment2" rows="4" required></textarea>
+
+                <input type="submit" value="Gửi bình luận">
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
